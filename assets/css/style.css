@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+header {
+  padding: 60px;
+  text-align: center;
+  background: #12293d;
+  color: #fff;
+}
+
+.card {
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+  float: left;
+  width: 25%;
+}
+
+
+.card header {
+  padding: 20px;
+}
+
+.card p {
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+}
+
+@media screen and (max-width: 992px)
+  {
+    .card {
+    width: 50% }
+  }
+
+@media screen and (max-width: 768px)
+  {
+    .card {
+    width: 100% }
+  }
+
+  @media screen and (max-width: 576px)
+  {
+    .card {
+    width: 100% }
+  }
+
+/* Tablet Size */
+@media screen and (max-width: 992px) {
+  header {
+    background: #008004
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    background: #005249
+  }
+}
+
+@media screen and (max-width: 576px) {
+  header {
+    background: #001652
+  }
+}
+
